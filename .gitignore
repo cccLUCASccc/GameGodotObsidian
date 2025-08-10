@@ -1,0 +1,59 @@
+# ==========================
+# GODOT
+# ==========================
+# Import metadata
+.import/
+# Exported binaries
+export/
+# Mono-specific
+.mono/
+data_*/
+mono_crash.*.json
+
+# User-specific Godot settings
+*.cfg
+*.translation
+*.import
+*.tmp
+
+# Godot 4 specific
+.godot/
+
+# ==========================
+# OBSIDIAN
+# ==========================
+# Ignore workspace settings (local UI state)
+.vault-stats
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/app.json
+.obsidian/hotkeys.json
+
+# Optionnel : ignorer les plugins locaux si tu veux un Vault "propre"
+# (enlever ce bloc si tu veux partager tes plugins avec le repo)
+.obsidian/plugins/
+.obsidian/snippets/
+
+# ==========================
+# SYSTÈME
+# ==========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# ==========================
+# LOGS
+# ==========================
+*.log
+*.log.*
